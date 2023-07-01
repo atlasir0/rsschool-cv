@@ -14,7 +14,7 @@ function toCamelCase(str){
     camelCase += word[0].toUpperCase() + word.slice(1);
   }
   
-
+  return camelCase;
 }
 ```
 
